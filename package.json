@@ -19,12 +19,25 @@
     "@vue/cli-service": "^3.0.3",
     "@vue/test-utils": "^1.0.0-beta.28",
     "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-preset-env": "^1.7.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "jest": "^23.6.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
-    "vue-template-compiler": "^2.5.21"
+    "vue-jest": "^3.0.2",
+    "vue-template-compiler": "^2.5.22"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "vue"
+    ],
+    "transform": {
+      ".*\\.(vue)$": "vue-jest",
+      "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
+    }
   }
 }

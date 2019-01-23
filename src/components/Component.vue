@@ -1,3 +1,3 @@
 <template>
-  <p>Hello vue</p>
+  <p>Hello Vue</p>
 </template>
