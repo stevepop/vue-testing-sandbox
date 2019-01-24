@@ -4,14 +4,17 @@
     text="Vue"
     :dark=true
     />
+    <AppReveal />
  </div>
 </template>
 
 <script>
 import AppTag from '@/components/elements/tag/AppTag'
+import AppReveal from '@/components/elements/reveal/AppReveal'
 export default {
   components: {
-    AppTag
+    AppTag,
+    AppReveal
   }
 }
 </script>
