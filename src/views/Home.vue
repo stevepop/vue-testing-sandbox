@@ -1,10 +1,10 @@
 <template>
  <div>
-   <AppTag 
-    text="Vue"
+   <!-- <AppTag 
+    text="Here I am"
     :dark=true
-    />
-    <AppReveal />
+    /> -->
+    <AppReveal text="Here I am"/>
  </div>
 </template>
 
