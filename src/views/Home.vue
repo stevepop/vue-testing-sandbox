@@ -1,20 +1,16 @@
 <template>
  <div>
-   <!-- <AppTag 
-    text="Here I am"
-    :dark=true
-    /> -->
-    <AppReveal text="Here I am"/>
+    <AppList>
+        <li>Item one</li>
+    </AppList>
  </div>
 </template>
 
 <script>
-import AppTag from '@/components/elements/tag/AppTag'
-import AppReveal from '@/components/elements/reveal/AppReveal'
+import AppList from '@/components/elements/list/AppList'
 export default {
   components: {
-    AppTag,
-    AppReveal
+    AppList
   }
 }
 </script>
